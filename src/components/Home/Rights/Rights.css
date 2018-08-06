@@ -1,0 +1,41 @@
+.rights {
+  background: skyblue;
+  width: 100%;
+}
+
+.odl {
+  width: 100%;
+  display: flex;
+}
+
+.odl dt {
+  width: 50%;
+}
+
+.odl dt ul {
+  width: 100%;
+}
+
+.odl dt ul li {
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.odl dt ul li p {
+  width: 30%;
+  padding: 0 .1rem;
+}
+
+.odl dt ul li p img {
+  width: 100%;
+}
+
+.odl dt ul li span {
+  flex: 1;
+  line-height: .35rem;
+}
+
+.odl dd {
+  flex: 1;
+}

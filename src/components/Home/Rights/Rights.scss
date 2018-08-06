@@ -1,0 +1,35 @@
+.rights {
+    background: skyblue;
+    width: 100%;
+}
+.odl {
+    width: 100%;
+    display: flex;
+    dt{
+        width: 50%;
+        ul{
+            width: 100%;
+            li{
+                width: 100%;
+                display: flex;
+                box-sizing: border-box;
+                p{
+                    width: 30%;
+                    padding: 0 .1rem;
+                    img{
+                        width: 100%;
+                    }
+                }
+                span{
+                    flex: 1;
+                    line-height: .35rem;
+                }
+
+            }
+        }
+
+    }
+    dd{
+        flex: 1;
+    }
+}
